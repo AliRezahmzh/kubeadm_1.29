@@ -1,0 +1,3 @@
+ source <(kubectl completion bash) --> kubectl auto complete
+
+ echo  'source <(kubectl completion bash)' >> ~/.bashrc

@@ -4,3 +4,11 @@ alias kc=kubectl
 # label nodes:
 
 kc label no kube-worker-1 kubernetes.io/role=worker-1
+
+
+
+# create join command 
+
+kubeadm token generate
+
+kubeadm token create 5xx9ht.jnjxpsn4e38qsoyh --print-join-command --ttl=24h

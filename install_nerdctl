@@ -1,0 +1,12 @@
+wget https://github.com/containerd/nerdctl/releases/download/v2.0.0/nerdctl-2.0.0-linux-amd64.tar.gz
+
+mv nerdctl-2.0.0-linux-amd64.tar.gz /usr/local/
+ 
+cd /usr/local/
+
+tar Cxzvvf /usr/local nerdctl-2.0.0-linux-amd64.tar.gz
+
+ mv nerdctl bin/
+
+
+nerdctl ps
